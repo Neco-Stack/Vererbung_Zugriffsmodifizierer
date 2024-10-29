@@ -2,7 +2,7 @@ import Alien from './AlienClass';
 import Song from './Songs';
 import { SongWithUnknownArtist } from './SongWithUnknownArtist';
 import { Tea, TeaFlavor } from './Tea';
-import { Coffee, Coffee, CoffeeType } from './Coffee';
+import { Coffee, CoffeeType } from './Coffee';
 
 const alien1 = new Alien("Daniel", "Neptun", "Milkyway", "oceanblue");
 const alien2 = new Alien("Necati", "Jupiter", "Antarticusa", "white");
@@ -26,6 +26,10 @@ const tea2 = new Tea('Turkish Cay', 2.0, TeaFlavor.Chai);
 
 const coffee1 = new Coffee("Espresso", 3.5, CoffeeType.Espresso);
 const coffee2 = new Coffee("FlatWhite", 4.5, CoffeeType.Cappuccino)
+
+console.log(tea1);console.log(tea2);console.log(coffee2);console.log(coffee1);
+
+
 
 
 
